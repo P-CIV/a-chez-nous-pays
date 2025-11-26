@@ -67,28 +67,47 @@
         </section>
         <section class="group today-special">
             <h2 class="group__title">Plat du jour</h2>
-            <div class="container container--flex">
-                <div class="column column--50--25">
-                    <img src="img/plato1.jpg.png" alt="Foutou banane + sauce graine" class="today-special__img">
-                    <div class="today-special__title">Foutou banane + sauce graine</div>
-                    <div class="today-special__price">3 000 Fcfa</div>
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <div class="slider" id="slider">
+                        <div class="slide">
+                            <img src="img/plato1.jpg.png" alt="Foutou banane + sauce graine" class="slide__img">
+                            <div class="slide__content">
+                                <div class="slide__title">Foutou banane + sauce graine</div>
+                                <div class="slide__price">3 000 Fcfa</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/plato2.jpg.png" alt="Foutou igname + sauce claire" class="slide__img">
+                            <div class="slide__content">
+                                <div class="slide__title">Foutou igname + sauce claire</div>
+                                <div class="slide__price">3 000 Fcfa</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/plato3.jpg.png" alt="Foutou manioc + sauce aubergine" class="slide__img">
+                            <div class="slide__content">
+                                <div class="slide__title">Foutou manioc + sauce aubergine</div>
+                                <div class="slide__price">2 500 Fcfa</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="img/plato4.jpg.png" alt="Foutou banane + sauce arachide" class="slide__img">
+                            <div class="slide__content">
+                                <div class="slide__title">Foutou banane + sauce arachide</div>
+                                <div class="slide__price">2 500 Fcfa</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="column column--50--25">
-                    <img src="img/plato2.jpg.png" alt="Foutou igname + sauce claire" class="today-special__img">
-                    <div class="today-special__title">Foutou igname + sauce claire</div>
-                    <div class="today-special__price">3 000 Fcfa</div>
-                </div>
-                <div class="column column--50--25">
-                    <img src="img/plato3.jpg.png" alt="Foutou manioc + sauce aubergine" class="today-special__img">
-                    <div class="today-special__title">Foutou manioc + sauce aubergine</div>
-                    <div class="today-special__price">2 500 Fcfa</div>
-                </div>
-                <div class="column column--50--25">
-                    <img src="img/plato4.jpg.png" alt="Foutou banane + sauce arachide" class="today-special__img">
-                    <div class="today-special__title">Foutou banane + sauce arachide</div>
-                    <div class="today-special__price">2 500 Fcfa</div>
-                </div>
+                <button class="slider-btn slider-btn--prev" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn slider-btn--next" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
+            <div class="slider-dots" id="sliderDots"></div>
         </section>
       
     </main>
@@ -106,9 +125,11 @@
             </div>
             <div class="column column--33">
                 <h2 class="column__title">Suivez-nous</h2>
-                <p class="column__txt"><a href="https://www.facebook.com/" class="icon-facebook">Facebook</a></p>
-                <p class="column__txt"><a href="#" class="icon-twitter">Twitter</a></p>
-                <p class="column__txt"><a href="https://www.instagram.com/" class="icon-instagram">Instagram</a></p>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.tiktok.com/" class="footer-social-link"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
             <p class="copy">© 2025 À chez-nous pays | Tous droits réservés | Créé par Pascal Kambou</p>
         </div>
