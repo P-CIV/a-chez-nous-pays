@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const formData = {
             nom: document.getElementById('name').value,
             email: document.getElementById('email').value,
-            telephone: document.getElementById('phone').value,
+            numero: document.getElementById('phone').value,
             message: document.getElementById('message').value
         };
 
