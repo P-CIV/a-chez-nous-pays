@@ -1,4 +1,4 @@
-// Gallery scroll animation 
+// scroll animation
 document.addEventListener('DOMContentLoaded', function() {
     const galleryItems = document.querySelectorAll('.gallery-item');
     const gallery = document.querySelector('.gallery');

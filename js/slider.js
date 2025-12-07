@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const gap = 20;
     const totalScroll = (slideWidth + gap) * slides.length;
 
-    // Create dots
+    
     slides.forEach((_, index) => {
         const dot = document.createElement('div');
         dot.className = 'dot';
